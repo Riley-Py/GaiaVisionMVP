@@ -35,6 +35,9 @@
                                     <segment title="🪵"/>
                                     <segment title="🏭"/>
                                 </segments>
+                                <connections>
+                                    <action selector="optionsForMapEvents:" destination="BYZ-38-t0r" eventType="valueChanged" id="V0G-nR-MPv"/>
+                                </connections>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Data 📄" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Peb-hZ-07i">
                                 <rect key="frame" x="27" y="517" width="102" height="41"/>
@@ -110,6 +113,10 @@
                             <constraint firstItem="Xi6-Ju-DK6" firstAttribute="leading" secondItem="d1g-d5-8B4" secondAttribute="leading" constant="-8" id="zd1-H7-XJz"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="A6u-yZ-Zho" id="PzH-jS-lVD"/>
+                        <outlet property="optionsForMap" destination="Xi6-Ju-DK6" id="G1Y-an-mUk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
