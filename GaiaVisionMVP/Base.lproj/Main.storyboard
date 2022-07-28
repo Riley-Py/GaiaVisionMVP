@@ -342,6 +342,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="oxc-6b-iCo"/>
                         <segue destination="9dn-ay-0ND" kind="relationship" relationship="viewControllers" id="CfC-0v-ScZ"/>
                         <segue destination="DFr-Du-9u7" kind="relationship" relationship="viewControllers" id="lfS-9m-pmA"/>
+                        <segue destination="oAH-KA-MCP" kind="relationship" relationship="viewControllers" id="Kdn-50-VUb"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GPO-wU-n3l" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -646,6 +647,52 @@
             </objects>
             <point key="canvasLocation" x="4643.4782608695659" y="306.69642857142856"/>
         </scene>
+        <!--Tips-->
+        <scene sceneID="VTa-HB-V2D">
+            <objects>
+                <viewController id="oAH-KA-MCP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Txg-fG-t5U">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nri-aS-Iup">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GwA-TU-AO5">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1400"/>
+                                        <color key="backgroundColor" red="0.69803921570000005" green="0.82352941180000006" blue="0.72156862749999995" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1400" id="TCD-h5-jQJ"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="GwA-TU-AO5" firstAttribute="top" secondItem="Nri-aS-Iup" secondAttribute="top" id="C8p-dC-2wL"/>
+                                    <constraint firstItem="GwA-TU-AO5" firstAttribute="leading" secondItem="Nri-aS-Iup" secondAttribute="leading" id="J7q-7T-ajm"/>
+                                    <constraint firstItem="GwA-TU-AO5" firstAttribute="top" secondItem="Nri-aS-Iup" secondAttribute="top" id="a0K-1v-bkP"/>
+                                    <constraint firstAttribute="trailing" secondItem="GwA-TU-AO5" secondAttribute="trailing" id="fr0-d1-9aa"/>
+                                    <constraint firstAttribute="bottom" secondItem="GwA-TU-AO5" secondAttribute="bottom" id="xVG-8K-hMF"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Czs-hG-KgX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Nri-aS-Iup" firstAttribute="leading" secondItem="Czs-hG-KgX" secondAttribute="leading" id="3hP-Gx-Sea"/>
+                            <constraint firstItem="Nri-aS-Iup" firstAttribute="top" secondItem="Txg-fG-t5U" secondAttribute="top" id="8cm-7A-Dvc"/>
+                            <constraint firstAttribute="bottom" secondItem="Nri-aS-Iup" secondAttribute="bottom" id="9GI-DO-qzB"/>
+                            <constraint firstItem="GwA-TU-AO5" firstAttribute="width" secondItem="Txg-fG-t5U" secondAttribute="width" id="PdA-FF-gNL"/>
+                            <constraint firstItem="Nri-aS-Iup" firstAttribute="trailing" secondItem="Czs-hG-KgX" secondAttribute="trailing" id="eTC-MN-AR0"/>
+                            <constraint firstItem="GwA-TU-AO5" firstAttribute="height" secondItem="Txg-fG-t5U" secondAttribute="height" multiplier="1.5625" id="lig-YE-eP9"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Tips" image="icons8-greentech-30" id="gRK-Mn-nFU"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3f3-tO-Qjl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5515.9420289855079" y="305.35714285714283"/>
+        </scene>
     </scenes>
     <resources>
         <image name="bbc" width="976" height="549"/>
@@ -653,6 +700,7 @@
         <image name="friendsoftheearth" width="1280" height="720"/>
         <image name="googleearth" width="512" height="512"/>
         <image name="house" catalog="system" width="128" height="106"/>
+        <image name="icons8-greentech-30" width="30" height="30"/>
         <image name="icons8-landslide-30" width="30" height="30"/>
         <image name="icons8-marine-pollution-30" width="30" height="30"/>
         <image name="logo_transparent" width="1200" height="1200"/>
