@@ -13,11 +13,13 @@ class ViewController: UIViewController {
     @IBOutlet weak var optionsForMap: UISegmentedControl!
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Loading up a placeholder
         mapView.image = UIImage(named:"washingtontownship.png")
         // Do any additional setup after loading the view.
     }
 
     @IBAction func optionsForMapEvents(_ sender: UISegmentedControl) {
+        //Takes a selected index and then changes the image based off it, else nothing
         switch sender.selectedSegmentIndex{
         case 0:
             mapView.image = UIImage(named: "Canadian Geographic.jpeg")
