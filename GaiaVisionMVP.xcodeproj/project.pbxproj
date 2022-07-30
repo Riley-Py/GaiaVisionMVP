@@ -13,7 +13,10 @@
 		C09021A2288EF44700DE1A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09021A0288EF44700DE1A5E /* Main.storyboard */; };
 		C09021A4288EF44800DE1A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09021A3288EF44800DE1A5E /* Assets.xcassets */; };
 		C09021A7288EF44800DE1A5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09021A5288EF44800DE1A5E /* LaunchScreen.storyboard */; };
+		C097ADDB2894645800DBF085 /* Popover.swift in Sources */ = {isa = PBXBuildFile; fileRef = C097ADDA2894645800DBF085 /* Popover.swift */; };
+		C0998CDC2894D5A9006537C4 /* CausesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0998CDB2894D5A9006537C4 /* CausesViewController.swift */; };
 		C09B870E2893656B005D1048 /* TipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09B870D2893656B005D1048 /* TipsViewController.swift */; };
+		C0B5D8472894AC3600865C77 /* EffectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0B5D8462894AC3600865C77 /* EffectsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +28,10 @@
 		C09021A3288EF44800DE1A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C09021A6288EF44800DE1A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C09021A8288EF44800DE1A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C097ADDA2894645800DBF085 /* Popover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Popover.swift; path = "../../../Downloads/Popover-1.2.2/Classes/Popover.swift"; sourceTree = "<group>"; };
+		C0998CDB2894D5A9006537C4 /* CausesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CausesViewController.swift; sourceTree = "<group>"; };
 		C09B870D2893656B005D1048 /* TipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsViewController.swift; sourceTree = "<group>"; };
+		C0B5D8462894AC3600865C77 /* EffectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +68,10 @@
 				C090219C288EF44700DE1A5E /* SceneDelegate.swift */,
 				C090219E288EF44700DE1A5E /* HomeViewController.swift */,
 				C09021A0288EF44700DE1A5E /* Main.storyboard */,
+				C0998CDB2894D5A9006537C4 /* CausesViewController.swift */,
+				C0B5D8462894AC3600865C77 /* EffectsViewController.swift */,
 				C09B870D2893656B005D1048 /* TipsViewController.swift */,
+				C097ADDA2894645800DBF085 /* Popover.swift */,
 				C09021A3288EF44800DE1A5E /* Assets.xcassets */,
 				C09021A5288EF44800DE1A5E /* LaunchScreen.storyboard */,
 				C09021A8288EF44800DE1A5E /* Info.plist */,
@@ -143,8 +152,11 @@
 			files = (
 				C090219F288EF44700DE1A5E /* HomeViewController.swift in Sources */,
 				C090219B288EF44700DE1A5E /* AppDelegate.swift in Sources */,
+				C097ADDB2894645800DBF085 /* Popover.swift in Sources */,
 				C09B870E2893656B005D1048 /* TipsViewController.swift in Sources */,
+				C0998CDC2894D5A9006537C4 /* CausesViewController.swift in Sources */,
 				C090219D288EF44700DE1A5E /* SceneDelegate.swift in Sources */,
+				C0B5D8472894AC3600865C77 /* EffectsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
